@@ -19,8 +19,10 @@ const App = () => {
           <h1>hey there, i'm monica 👋🏼</h1>
           <p>a full stack web development student at lambda school</p>
         </div>
-        <About/>
-        <Skills/>
+        <div className='components'>
+          <About/>
+          <Skills/>
+        </div>
       </div>
     </main>
   );

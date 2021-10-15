@@ -108,7 +108,8 @@ nav a{
   border-radius: 15px;
   padding: 10px;
   color: black;
-  width: 40%;
+  width: 97%;
+  margin-top: 20px;
 }
 .listContainer {
   display: flex;
@@ -125,4 +126,9 @@ nav a{
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+.components {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
