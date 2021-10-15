@@ -1,7 +1,5 @@
 import React from 'react';
-
-
-// import About from './components/About.js';
+import About from './components/About.js';
 // import Skills from './components/Skills.js';
 import './App.css';
 
@@ -11,7 +9,9 @@ const App = () => {
     <main>
       <header>
           <nav>
-            
+            <a href='/'>home</a>
+            <a href='/about'>about</a>
+            <a href='/skills'>skills</a>
           </nav>
       </header>
       <div className='portfolioBody'>
@@ -19,6 +19,7 @@ const App = () => {
           <h1>hey there, i'm monica 👋🏼</h1>
           <p>a full stack web development student at lambda school</p>
         </div>
+        <About/>
       </div>
     </main>
   );
