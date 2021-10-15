@@ -1,6 +1,6 @@
 import React from 'react';
 import About from './components/About.js';
-// import Skills from './components/Skills.js';
+import Skills from './components/Skills.js';
 import './App.css';
 
 const App = () => {
@@ -20,6 +20,7 @@ const App = () => {
           <p>a full stack web development student at lambda school</p>
         </div>
         <About/>
+        <Skills/>
       </div>
     </main>
   );
